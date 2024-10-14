@@ -12,45 +12,20 @@
   },
   "layers": [
     {
-      "id": "陸域",
-      "type": "fill",
-      "source": "natural",
-      "source-layer": "landmass",
-      "minzoom": 0,
-      "maxzoom": 15,
-      "paint": {
-        "fill-color": "rgba(170, 128, 86, 1)",
-        "fill-opacity": 0.5,
-        "fill-antialias": false,
-        "fill-outline-color": "rgba(242, 15, 15, 1)",
-        "fill-translate-anchor": "map"
-      }
+      "id": "baea_nests",
+      "type": "circle",
+      "source": "v",
+      "source-layer": "testLayer1-point",
+      "maxzoom": 10,
+      "paint": { "circle-color": "rgba(181, 16, 16, 1)" }
     },
     {
-      "id": "河川",
+      "id": "linear_projects",
       "type": "line",
-      "source": "natural",
-      "source-layer": "riverl",
-      "minzoom": 0,
-      "maxzoom": 15,
-      "layout": {
-        "line-cap": "round",
-        "line-join": "round",
-        "line-miter-limit": 2
-      },
-      "paint": {
-        "line-color": "rgba(62, 70, 250, 1)",
-        "line-opacity": 1,
-        "line-width": 5
-      }
-    },
-    {
-      "id": "海岸線",
-      "type": "line",
-      "source": "natural",
-      "source-layer": "coastl",
-      "maxzoom": 15,
-      "paint": { "line-color": "rgba(46, 45, 45, 1)", "line-width": 2 }
+      "source": "v",
+      "source-layer": "testLayer2-line",
+      "maxzoom": 10,
+      "paint": { "line-color": "rgba(69, 21, 230, 1)" }
     }
   ],
   "id": "wxp72pb"
