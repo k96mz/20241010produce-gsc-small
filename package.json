@@ -1,0 +1,27 @@
+{
+  "name": "20241010produce-gsc-small",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "k96mz",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mapbox/mbtiles": "^0.12.1",
+    "@mapbox/tilebelt": "^1.0.2",
+    "better-queue": "^3.8.12",
+    "child_process": "^1.0.2",
+    "cli-spinner": "^0.2.10",
+    "config": "^3.3.12",
+    "express": "^4.21.1",
+    "hh-mm-ss": "^1.2.0",
+    "hjson": "^3.2.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.0",
+    "prettysize": "^2.0.0",
+    "winston": "^3.15.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
