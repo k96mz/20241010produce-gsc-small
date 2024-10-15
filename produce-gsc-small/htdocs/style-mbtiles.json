@@ -12,20 +12,27 @@
   },
   "layers": [
     {
-      "id": "baea_nests",
-      "type": "circle",
-      "source": "v",
-      "source-layer": "testLayer1-point",
-      "maxzoom": 10,
-      "paint": { "circle-color": "rgba(181, 16, 16, 1)" }
-    },
-    {
-      "id": "linear_projects",
+      "id": "coastl",
       "type": "line",
       "source": "v",
-      "source-layer": "testLayer2-line",
-      "maxzoom": 10,
-      "paint": { "line-color": "rgba(69, 21, 230, 1)" }
+      "source-layer": "coastl",
+      "maxzoom": 4
+    },
+    {
+      "id": "landmass",
+      "type": "fill",
+      "source": "v",
+      "source-layer": "landmass",
+      "maxzoom": 4,
+      "paint": { "fill-color": "rgba(195, 176, 176, 1)" }
+    },
+    {
+      "id": "riverl",
+      "type": "line",
+      "source": "v",
+      "source-layer": "riverl",
+      "maxzoom": 4,
+      "paint": { "line-color": "blue", "line-width": 2 }
     }
   ],
   "id": "wxp72pb"

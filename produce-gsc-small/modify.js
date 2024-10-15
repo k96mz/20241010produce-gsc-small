@@ -16,7 +16,7 @@ const postProcess = f => {
 const layerEdit = {
   ne_110m_coastline: f => {
     f.tippecanoe = {
-      layer: 'coastline',
+      layer: 'coastl',
       minzoom: 0,
       maxzoom: 5,
     };
@@ -24,7 +24,7 @@ const layerEdit = {
   },
   ne_110m_rivers_lake_centerlines: f => {
     f.tippecanoe = {
-      layer: 'river_lake_centerline',
+      layer: 'riverl',
       minzoom: 0,
       maxzoom: 5,
     };
@@ -32,7 +32,7 @@ const layerEdit = {
   },
   ne_110m_land: f => {
     f.tippecanoe = {
-      layer: 'land',
+      layer: 'landmass',
       minzoom: 0,
       maxzoom: 5,
     };
