@@ -7,7 +7,9 @@
   "sources": {
     "v": {
       "type": "vector",
-      "tiles": ["http://localhost:3000/VT/zxy/0-0-0/{z}/{x}/{y}.pbf"]
+      "tiles": [
+        "http://localhost:3000/VT/zxy/0-0-0naturalEarth/{z}/{x}/{y}.pbf"
+      ]
     }
   },
   "layers": [

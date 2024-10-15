@@ -95,3 +95,11 @@
 {"level":"info","message":"GET /VT/zxy/0-0-0/2/2/1.pbf 200 4477 - 5.046 ms"}
 {"level":"info","message":"GET /VT/zxy/0-0-0/2/2/2.pbf 200 1507 - 4.732 ms"}
 {"level":"info","message":"GET /VT/zxy/0-0-0/2/3/1.pbf 200 3976 - 4.067 ms"}
+{"level":"info","message":"GET /map-mbtiles.html 304 - - 7.999 ms"}
+{"level":"info","message":"GET /maplibre-gl.css 304 - - 1.467 ms"}
+{"level":"info","message":"GET /maplibre-gl.js 304 - - 2.239 ms"}
+{"level":"info","message":"GET /style-mbtiles.json 200 835 - 2.984 ms"}
+{"level":"info","message":"GET /VT/zxy/0-0-0naturalEarth/1/1/0.pbf 200 7293 - 7.738 ms"}
+{"level":"info","message":"GET /VT/zxy/0-0-0naturalEarth/1/1/1.pbf 200 3571 - 15.893 ms"}
+{"level":"info","message":"GET /VT/zxy/0-0-0naturalEarth/1/0/1.pbf 200 2757 - 15.866 ms"}
+{"level":"info","message":"GET /VT/zxy/0-0-0naturalEarth/1/0/0.pbf 200 6192 - 9.542 ms"}
