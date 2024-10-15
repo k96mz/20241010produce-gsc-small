@@ -8,8 +8,8 @@
     />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../maplibre-gl.css" />
-    <script src="../maplibre-gl.js"></script>
+    <link rel="stylesheet" href="./maplibre-gl.css" />
+    <script src="./maplibre-gl.js"></script>
     <style>
       body {
         margin: 0;
@@ -29,7 +29,7 @@
       const map = new maplibregl.Map({
         container: 'map', // container id
         style: './style-mbtiles.json', // style URL
-        center: [132.652106, 34.418256], // starting position [lng, lat]
+        center: [-105, 40], // starting position [lng, lat]
         zoom: 4, // starting zoom
         maplibreLogo: true,
         hash: true,

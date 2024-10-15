@@ -14,18 +14,26 @@ const postProcess = f => {
 };
 
 const layerEdit = {
-  baea_nests: f => {
+  ne_110m_coastline: f => {
     f.tippecanoe = {
-      layer: 'testLayer1-point',
-      minzoom: 3,
-      maxzoom: 6,
+      layer: 'coastline',
+      minzoom: 0,
+      maxzoom: 5,
     };
     return f;
   },
-  linear_projects: f => {
+  ne_110m_rivers_lake_centerlines: f => {
     f.tippecanoe = {
-      layer: 'testLayer2-line',
-      minzoom: 4,
+      layer: 'river_lake_centerline',
+      minzoom: 0,
+      maxzoom: 5,
+    };
+    return f;
+  },
+  ne_110m_land: f => {
+    f.tippecanoe = {
+      layer: 'land',
+      minzoom: 0,
       maxzoom: 5,
     };
     return f;

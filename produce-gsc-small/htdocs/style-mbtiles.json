@@ -2,10 +2,10 @@
   "version": 8,
   "name": "Simple Style",
   "metadata": { "maputnik:renderer": "mlgljs" },
-  "center": [132.652106, 34.418256],
+  "center": [-105, 40],
   "zoom": 7,
   "sources": {
-    "natural": {
+    "v": {
       "type": "vector",
       "tiles": ["http://localhost:3000/VT/zxy/0-0-0/{z}/{x}/{y}.pbf"]
     }
