@@ -36,7 +36,8 @@ app.use(
     stream: logger.stream,
   })
 );
-app.use(express.static(`${__dirname}/${htdocsPath}`));
+// app.use(express.static(`${__dirname}/${htdocsPath}`));
+app.use(express.static(`${htdocsPath}`));
 app.use('/VT', VTRouter);
 
 app.listen(port, () => {
